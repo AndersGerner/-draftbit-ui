@@ -1,0 +1,1 @@
+{"version":3,"sources":["Touchable.web.tsx"],"names":["TouchableOpacity"],"mappings":"AAAA,SAASA,gBAAT,QAAiC,cAAjC;AAEA,eAAeA,gBAAf","sourcesContent":["import { TouchableOpacity } from \"react-native\";\n\nexport default TouchableOpacity;\n"]}

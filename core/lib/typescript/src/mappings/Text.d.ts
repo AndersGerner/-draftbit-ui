@@ -1,0 +1,403 @@
+export declare const SEED_DATA: ({
+    name: string;
+    tag: string;
+    description: string;
+    category: string;
+    layout: {
+        color: string;
+    };
+    props: {
+        children: {
+            group: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: string;
+        };
+        accessibilityLabel: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        accessibilityRole: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            options: string[];
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        accessible: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        adjustsFontSizeToFit: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        allowFontScaling: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        dataDetectorType: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            options: string[];
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        disabled: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        ellipsizeMode: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            options: string[];
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        maxFontSizeMultiplier: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        minimumFontScale: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            min: number;
+            step: number;
+            precision: number;
+            max: number;
+            defaultValue: null;
+        };
+        numberOfLines: {
+            group: string;
+            name: string;
+            label: string;
+            defaultValue: null;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            step: number;
+            precision: number;
+        };
+        selectable: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        selectionColor: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        suppressHighlighting: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        textBreakStrategy: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            options: string[];
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+    };
+    triggers?: undefined;
+} | {
+    name: string;
+    tag: string;
+    category: string;
+    layout: {
+        color: string;
+    };
+    triggers: string[];
+    props: {
+        onPress: {
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+            group: string;
+        };
+        children: {
+            group: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: string;
+        };
+        accessibilityLabel: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        accessibilityRole: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            options: string[];
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        accessible: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        adjustsFontSizeToFit: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        allowFontScaling: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        dataDetectorType: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            options: string[];
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        disabled: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        ellipsizeMode: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            options: string[];
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        maxFontSizeMultiplier: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        minimumFontScale: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            min: number;
+            step: number;
+            precision: number;
+            max: number;
+            defaultValue: null;
+        };
+        numberOfLines: {
+            group: string;
+            name: string;
+            label: string;
+            defaultValue: null;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            step: number;
+            precision: number;
+        };
+        selectable: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        selectionColor: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        suppressHighlighting: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+        textBreakStrategy: {
+            group: string;
+            name: string;
+            label: string;
+            description: string;
+            options: string[];
+            editable: boolean;
+            required: boolean;
+            formType: string;
+            propType: string;
+            defaultValue: null;
+        };
+    };
+    description?: undefined;
+})[];

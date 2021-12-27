@@ -1,0 +1,34 @@
+declare const _default: {
+    windowWidth: number;
+    windowHeight: number;
+    avatarImageUrl: string;
+    avatarImageSize: number;
+    cardImageSize: number;
+    cardImageUrl: string;
+    cardIconSize: number;
+    cardIconBackgroundOpacity: number;
+    cardIconElevation: number;
+    placeholderImageURL: string;
+    getPlaceholderImageUrl: (size: {
+        width: number;
+        height: number;
+    }) => string;
+    squareImageUrl: string;
+    FABSize: number;
+    FABBorderRadius: number;
+    FABFixedHeight: number;
+    cardContainerShortImageAspectRatio: number;
+    rowSingleLineImageSize: number;
+    rowMultiLineImageSize: number;
+    rowSingleLineIconSize: number;
+    rowMultiLineIconSize: number;
+    headerIconSize: number;
+    buttonIconSize: number;
+    swiperInactiveDotSize: number;
+    swiperActiveDotSize: number;
+    fieldSearchBarFullIconSize: number;
+    stepperButtonSize: number;
+    radioButtonSize: number;
+    topSafeAreaViewHeight: number;
+};
+export default _default;
